@@ -12,8 +12,10 @@ class Ship:
         self.moving_left = False
         self.moving_on = False
         self.moving_under = False
+        
     def blitme(self):
         self.screen.blit(self.image,self.rect)
+        
     def update(self):
         if self.moving_right:
             if self.rect.right < self.screen_rect.right:

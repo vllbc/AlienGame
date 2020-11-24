@@ -14,4 +14,6 @@ class Setting:
         self.big_height = 100
         self.big_color = (60,60,60)
         self.big_limit = 1
-        
+        self.alien_move_speed = 1
+        self.drop_speed = 10
+        self.left_or_right = 1 #1为向右移动 
